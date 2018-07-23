@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>人机五子棋</title>
+</head>
+
+<style media="screen">
+  canvas{
+    display: block;
+    margin: 50px auto;
+    background-color: #E5C997;
+    box-shadow: 3px 3px 3px #a2a080;
+  }
+  #restart{
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    width: 90px;
+    height: 36px;
+    border-radius: 3%;
+    margin: 10px auto;
+    color: #ffffff;
+    background-color: #3388ff;
+    touch-action: manipulation;
+    cursor: pointer;
+  }
+
+  #restart:hover {
+      opacity: .87;
+  }
+
+  #tips{
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+  }
+</style>
+
+<body>
+  <canvas id="canvas" width="450px" height="450px">浏览器不支持canvas标签</canvas>
+  <div id="tips"></div>
+  <div id="restart">重新开始</div>
+</body>
+
+<script src="js/index.7.23.js" charset="utf-8"></script>
+
+</html>
